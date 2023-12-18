@@ -1,0 +1,21 @@
+
+export default function Coins({coins}) {
+  return (
+    <>
+    <ul>
+{coins.map(coin => (
+<li key={coin.uuid}>
+    <h3
+
+
+
+
+</li>
+))}
+
+    </ul>
+    
+    
+    </>
+  )
+}
